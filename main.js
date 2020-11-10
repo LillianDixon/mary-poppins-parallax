@@ -1,4 +1,4 @@
-sameSite = none
+
 
 //Get reference to Canvas
 var canvas = document.getElementById('canvas');
@@ -32,7 +32,7 @@ var white = new Image();
 var layer_list = [
     {
         'image': background,
-        'src' : "https://res.cloudinary.com/dppn2nepp/image/upload/v1605035111/1-Mary-BKG.png",
+        'src' : "./images/1-Mary-BKG.png",
         "z_index": -6,
         'position': {x: 0, y: 0},
         "blend": null,
@@ -40,7 +40,7 @@ var layer_list = [
     },
     {
         'image': cloud1,
-        'src' : "https://res.cloudinary.com/dppn2nepp/image/upload/v1605035110/2-Mary-cloud1.png",
+        'src' : "./images/2-Mary-cloud1.png",
         "z_index": -2.25,
         'position': {x: 0, y: 0},
         "blend": null,
@@ -48,7 +48,7 @@ var layer_list = [
     },
     {
         'image': cloud2,
-        'src' : "https://res.cloudinary.com/dppn2nepp/image/upload/v1605035111/3-Mary-cloud2.png.png",
+        'src' : "./images/3-Mary-cloud2.png",
         "z_index": -1.25,
         'position': {x: 0, y: 0},
         "blend": null,
@@ -56,7 +56,7 @@ var layer_list = [
     },
     {
         'image': white,
-        'src' : "https://res.cloudinary.com/dppn2nepp/image/upload/v1605035108/6-Mary-white.png",
+        'src' : "./images/6-Mary-white.png",
         "z_index": 0,
         'position': {x: 0, y: 0},
         "blend": null,
@@ -64,7 +64,7 @@ var layer_list = [
     },
     {
         'image': building,
-        'src' : "https://res.cloudinary.com/dppn2nepp/image/upload/v1605035109/9-Mary-building.png",
+        'src' : "./images/9-Mary-building.png",
         "z_index": 1.25,
         'position': {x: 0, y: 0},
         "blend": null,
@@ -72,7 +72,7 @@ var layer_list = [
     },
     {
         'image': mary,
-        'src' : "https://res.cloudinary.com/dppn2nepp/image/upload/v1605035108/7-Mary-mary.png",
+        'src' : "./images/7-Mary-mary.png",
         "z_index": 1.25,
         'position': {x: 0, y: 0},
         "blend": null,
@@ -80,7 +80,7 @@ var layer_list = [
     },
     {
         'image': bird1,
-        'src' : "https://res.cloudinary.com/dppn2nepp/image/upload/v1605035109/4-Mary-bird1.png",
+        'src' : "./images/4-Mary-bird1.png",
         "z_index": -1.25,
         'position': {x: 0, y: 0},
         "blend": null,
@@ -88,7 +88,7 @@ var layer_list = [
     },
     {
         'image': bird2,
-        'src' : "https://res.cloudinary.com/dppn2nepp/image/upload/v1605035109/5-Mary-bird2.png",
+        'src' : "./images/5-Mary-bird2.png",
         "z_index": -1,
         'position': {x: 0, y: 0},
         "blend": null,
@@ -96,7 +96,7 @@ var layer_list = [
     },
     {
         'image': bird3,
-        'src' : "https://res.cloudinary.com/dppn2nepp/image/upload/v1605035108/8-Mary-bird3.png",
+        'src' : "./images/8-Mary-bird3.png",
         "z_index": 2.5,
         'position': {x: 0, y: 0},
         "blend": null,
@@ -104,7 +104,7 @@ var layer_list = [
     },
     {
         'image': highlight1,
-        'src' : "https://res.cloudinary.com/dppn2nepp/image/upload/v1605035108/10-Mary-highlight1.png",
+        'src' : "./images/10-Mary-highlight1.png",
         "z_index": 1.75,
         'position': {x: 0, y: 0},
         "blend": null,
@@ -112,7 +112,7 @@ var layer_list = [
     },
     {
         'image': highlight2,
-        'src' : "https://res.cloudinary.com/dppn2nepp/image/upload/v1605035108/11-Mary-highlight2.png",
+        'src' : "./images/11-Mary-highlight2.png",
         "z_index": 2.25,
         'position': {x: 0, y: 0},
         "blend": null,
